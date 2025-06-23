@@ -1,4 +1,5 @@
 import gulp from 'gulp';
+import template from 'gulp-template';
 import fileInclude from 'gulp-file-include';
 import { deleteAsync } from 'del';
 import  * as dartSass from 'sass';

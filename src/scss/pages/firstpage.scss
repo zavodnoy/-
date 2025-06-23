@@ -1,0 +1,65 @@
+.NewArrial{
+  background-image: url("../images/backgroundimg.webp");
+  background-repeat:no-repeat ;
+  background-size: 100% 713px;
+  width: 100%;
+  height: 713px;
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+
+  .aside{
+    background-color: #FFF3E3;
+    width: 643px;
+    height: 443px;
+    display: flex;
+    padding: 40px;
+    flex-direction: column;
+    align-items: flex-start;
+    margin-right: 50px;
+    gap: 30px;
+    justify-content: center;
+
+  }
+  .title{
+    font-size: 16px;
+
+  }
+  .subtitle{
+    font-size: 52px;
+  }
+  .text{
+    font-size: 18px;
+  }
+
+}
+.sectoinBrowse{
+  padding-top:100px ;
+  .title{
+    font-weight: bold;
+    text-align: center;
+    font-size: 32px;
+  }
+  .subtitleLorem{
+    text-align: center;
+    padding-top: 25px;
+    font-size: 20px;
+  }
+  p{
+    margin:0;
+  }
+  .content{
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    justify-content: center;
+    gap: 10%;
+    padding-top: 100px;
+      .dinigDesk,.livingDesk,.bedromDesk{
+      text-align: center;
+        padding-top: 5%;
+        font-size: 24px;
+        font-weight: bold;
+      }
+  }
+}

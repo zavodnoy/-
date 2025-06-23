@@ -11,6 +11,12 @@
 
 // ==== 4. Components ====
 @use 'components/header';
+@use 'components/button';
+
+// ==== 5. Pages ====
+@use 'pages/firstpage.scss';
+
+// ==== 6.Цвета ====
 
 body {
 
@@ -20,3 +26,4 @@ body {
   width: 100%;
   height: 100%;
 }
+

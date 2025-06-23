@@ -5,8 +5,8 @@
     <meta name="viewport"
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <link rel="stylesheet" href="assets/css/main.css" />
-    <title>Document</title>
+    <link rel="stylesheet" href="assets/css/main.css"/>
+    <title>practica</title>
 </head>
 <body>
 
@@ -26,6 +26,58 @@
 <!--"text": "Текст описания карточки 2"-->
 <!--})-->
 @@include('./_header.html')
+    <section class="NewArrial">
+        <div class="aside">
+            <div class="title">
+                New Arrival
+            </div>
+            <div class="subtitle">
+                Discover Our <br>New Collection
+            </div>
+            <div class="text">
+                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br>
+                elit tellus, luctus nec ullamcorper mattis.
+            </div>
+            @@include('./_button.html', {
+            "padding-x": "72px",
+            "padding-y": "25px",
+            "border-radius": "0px",
+            "title": "Buy now",
+            "color": "var(--primary-color)",
+            "font-size":"16px"
+            })
+        </div>
+    </section>
+<section class="sectoinBrowse">
+    <div class="title">
+        <p>Browse The Range</p>
+    </div>
+    <div class="subtitleLorem">
+        <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
+    </div>
+ <div class="content">
+
+     <div class="dining">
+         <img src="./assets/images/dining.webp" alt="diningImg">
+         <div class="dinigDesk">Dining</div>
+     </div>
+
+     <div class="living">
+         <img src="./assets/images/living.webp" alt="livingImg">
+         <div class="livingDesk">Living</div>
+     </div>
+
+     <div class="bedrom">
+         <img src="./assets/images/bedrom.webp" alt="bedromImg">
+         <div class="bedromDesk">Bedroom</div>
+     </div>
+
+
+ </div>
+
+</section>
+
+</div>
 
 </body>
 </html>
