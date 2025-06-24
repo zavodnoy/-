@@ -6,6 +6,9 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <link rel="stylesheet" href="assets/css/main.css"/>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
     <title>practica</title>
 </head>
 <body>
@@ -42,7 +45,7 @@
             "padding-x": "72px",
             "padding-y": "25px",
             "border-radius": "0px",
-            "title": "Buy now",
+            "title": "BUY NOW",
             "color": "var(--primary-color)",
             "font-size":"16px"
             })
@@ -71,13 +74,61 @@
          <img src="./assets/images/bedrom.webp" alt="bedromImg">
          <div class="bedromDesk">Bedroom</div>
      </div>
-
-
  </div>
+</section>
+<section class="sectionOur">
+    <div class="subject">
+        <p>Our Product</p>
+    </div>
+    <div class="carts">
+        @@include('./_card.html', {
+        'img': './assets/images/Syltherine',
+        'circle':'-30%',
+        'isSaleCircle':false,
+        'color':'var(--circlered-color)',
+        'title': 'Syltherine',
+        'description': 'Stylish cafe chair',
+        'price': '2.500.000',
+        'sale': '3.500.000',
+        'isSale': true
+        })
+        @@include('./_card.html', {
+        'img': './assets/images/leviosa',
+        'isSaleCircle':false,
+        'circle':'-30%',
+        'color':'var(--circlered-color)',
+        'title': 'Leviosa',
+        'description': 'Stylish cafe chair',
+        'price': '2.500.000',
+        'sale': '3.500.000',
+        'isSale': false
+        })
+        @@include('./_card.html', {
+        'img': './assets/images/lolito',
+        'isSaleCircle':false,
+        'circle':'-50%',
+        'color':'var(--circlered-color)',
+        'title': 'Lolito',
+        'description': 'Stylish cafe chair',
+        'price': '7.000.000',
+        'sale': '14.000.000',
+        'isSale': true
+        })
+        @@include('./_card.html', {
+        'img': './assets/images/respira',
+        'isSaleCircle':false,
+        'circle':'New',
+        'color':'var(--circleblue-color)',
+        'title': 'Respira',
+        'description': 'Outdoor bar table and stool',
+        'price': '500.000',
+        'sale': '14.000.000',
+        'isSale': false
+        })
+
+    </div>
 
 </section>
-
-</div>
 
 </body>
 </html>
