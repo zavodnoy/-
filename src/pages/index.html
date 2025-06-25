@@ -46,8 +46,11 @@
             "padding-y": "25px",
             "border-radius": "0px",
             "title": "BUY NOW",
-            "color": "var(--primary-color)",
-            "font-size":"16px"
+            "bgcolor": "var(--primary-color)",
+            "font-size":"16px",
+            "color":"white",
+            "border": "0",
+            "font-weight":"bold"
             })
         </div>
     </section>
@@ -84,7 +87,7 @@
         @@include('./_card.html', {
         'img': './assets/images/Syltherine',
         'circle':'-30%',
-        'isSaleCircle':false,
+        'isSaleCircle':true,
         'color':'var(--circlered-color)',
         'title': 'Syltherine',
         'description': 'Stylish cafe chair',
@@ -92,6 +95,7 @@
         'sale': '3.500.000',
         'isSale': true
         })
+
         @@include('./_card.html', {
         'img': './assets/images/leviosa',
         'isSaleCircle':false,
@@ -103,9 +107,10 @@
         'sale': '3.500.000',
         'isSale': false
         })
+
         @@include('./_card.html', {
         'img': './assets/images/lolito',
-        'isSaleCircle':false,
+        'isSaleCircle':true,
         'circle':'-50%',
         'color':'var(--circlered-color)',
         'title': 'Lolito',
@@ -114,9 +119,10 @@
         'sale': '14.000.000',
         'isSale': true
         })
+
         @@include('./_card.html', {
         'img': './assets/images/respira',
-        'isSaleCircle':false,
+        'isSaleCircle':true,
         'circle':'New',
         'color':'var(--circleblue-color)',
         'title': 'Respira',
@@ -125,10 +131,130 @@
         'sale': '14.000.000',
         'isSale': false
         })
+        @@include('./_card.html', {
+        'img': './assets/images/grifo',
+        'circle':'-30%',
+        'isSaleCircle':false,
+        'color':'var(--circlered-color)',
+        'title': 'Grifo',
+        'description': 'Night lamp',
+        'price': '1.500.000',
+        'sale': '3.500.000',
+        'isSale': false
+        })
+        @@include('./_card.html', {
+        'img': './assets/images/muggo',
+        'isSaleCircle':true,
+        'circle':'New',
+        'color':'var(--circleblue-color)',
+        'title': 'Muggo',
+        'description': 'Stylish cafe chair',
+        'price': '150.000',
+        'sale': '3.500.000',
+        'isSale': false
+        })
+        @@include('./_card.html', {
+        'img': './assets/images/pingky',
+        'isSaleCircle':true ,
+        'circle':'-50%',
+        'color':'var(--circlered-color)',
+        'title': 'Pingky',
+        'description': 'Cute bed set',
+        'price': '7.000.000',
+        'sale': '14.000.000',
+        'isSale': true
+        })
+        @@include('./_card.html', {
+        'img': './assets/images/potty',
+        'isSaleCircle':true,
+        'circle':'New',
+        'color':'var(--circleblue-color)',
+        'title': 'Potty',
+        'description': 'Minimalist flower pot',
+        'price': '500.000',
+        'sale': '14.000.000',
+        'isSale': false
+        })
 
     </div>
-
+    <div class="undercarts">
+        @@include('./_button.html', {
+        "padding-x": "74px",
+        "padding-y": "12px",
+        "border-radius": "0px",
+        "title": "Show More",
+        "bgcolor": "white",
+        "font-size":"16px",
+        "color":"var(--primary-color)",
+        "border-color":"var(--primary-color)",
+        "border": "1px",
+        "font-weight":"bold"
+        })
+    </div>
 </section>
+<section class="beautiful">
+    <div class="textleft">
+        <div class="headline">
+            <p>50+ Beautiful rooms <br>inspiration</p>
+        </div>
+        <div class="beautifulDesc">
+            <p>Our designer already made a lot of beautiful <br>prototipe of rooms that inspire you</p>
+        </div>
+        @@include('./_button.html', {
+        "padding-x": "36px",
+        "padding-y": "12px",
+        "border-radius": "0px",
+        "title": "Explore More",
+        "bgcolor": "var(--primary-color)",
+        "font-size":"16px",
+        "color":"white",
+        "border-color":"",
+        "border": "1px",
+        "font-weight":"normal"
+        })
+    </div>
 
+    <div class="image-content">
+        <div class="main-image">
+            <img src="./assets/images/innerpease.webp" alt="Main room image">
+
+            <div class="content-overlay">
+                <div class="content-white">
+                    <div class="content-header">
+                        <div class="number">01</div>
+                        <div class="divider"><hr></div>
+                        <div class="category">Bed Room</div>
+                    </div>
+                    <div class="content-title">Inner Peace</div>
+                </div>
+                @@include('./_button.html', {
+                "padding-x": "12px",
+                "padding-y": "12px",
+                "border-radius": "0px",
+                "title": "→",
+                "bgcolor": "var(--primary-color)",
+                "font-size":"16px",
+                "color":"white",
+                "border-color":"var(--circleblue-color)",
+                "border": "0px",
+                "font-weight":"bold"
+                })
+            </div>
+        </div>
+
+        <div class="secondary-images">
+            <img src="./assets/images/innerpease2.webp" alt="Secondary room image 1">
+            <img src="./assets/images/innerpease3.webp" alt="Secondary room image 2">
+        </div>
+    </div>
+</section>
+<section class="furniro">
+    <div class="titleshare">
+        <p>Share your setup with</p>
+    </div>
+    <div class="subtitlefurniro">
+       <p>#FuniroFurniture</p>
+    </div>
+</section>
 </body>
 </html>
