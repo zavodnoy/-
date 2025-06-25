@@ -8,7 +8,8 @@
     <link rel="stylesheet" href="assets/css/main.css"/>
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+          rel="stylesheet">
     <title>practica</title>
 </head>
 <body>
@@ -29,31 +30,31 @@
 <!--"text": "Текст описания карточки 2"-->
 <!--})-->
 @@include('./_header.html')
-    <section class="NewArrial">
-        <div class="aside">
-            <div class="title">
-                New Arrival
-            </div>
-            <div class="subtitle">
-                Discover Our <br>New Collection
-            </div>
-            <div class="text">
-                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br>
-                elit tellus, luctus nec ullamcorper mattis.
-            </div>
-            @@include('./_button.html', {
-            "padding-x": "72px",
-            "padding-y": "25px",
-            "border-radius": "0px",
-            "title": "BUY NOW",
-            "bgcolor": "var(--primary-color)",
-            "font-size":"16px",
-            "color":"white",
-            "border": "0",
-            "font-weight":"bold"
-            })
+<section class="NewArrial">
+    <div class="aside">
+        <div class="title">
+            New Arrival
         </div>
-    </section>
+        <div class="subtitle">
+            Discover Our <br>New Collection
+        </div>
+        <div class="text">
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ut <br>
+            elit tellus, luctus nec ullamcorper mattis.
+        </div>
+        @@include('./_button.html', {
+        "padding-x": "72px",
+        "padding-y": "25px",
+        "border-radius": "0px",
+        "title": "BUY NOW",
+        "bgcolor": "var(--primary-color)",
+        "font-size":"16px",
+        "color":"white",
+        "border": "0",
+        "font-weight":"bold"
+        })
+    </div>
+</section>
 <section class="sectoinBrowse">
     <div class="title">
         <p>Browse The Range</p>
@@ -61,23 +62,23 @@
     <div class="subtitleLorem">
         <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit.</p>
     </div>
- <div class="content">
+    <div class="content">
 
-     <div class="dining">
-         <img src="./assets/images/dining.webp" alt="diningImg">
-         <div class="dinigDesk">Dining</div>
-     </div>
+        <div class="dining">
+            <img src="./assets/images/dining.webp" alt="diningImg">
+            <div class="dinigDesk">Dining</div>
+        </div>
 
-     <div class="living">
-         <img src="./assets/images/living.webp" alt="livingImg">
-         <div class="livingDesk">Living</div>
-     </div>
+        <div class="living">
+            <img src="./assets/images/living.webp" alt="livingImg">
+            <div class="livingDesk">Living</div>
+        </div>
 
-     <div class="bedrom">
-         <img src="./assets/images/bedrom.webp" alt="bedromImg">
-         <div class="bedromDesk">Bedroom</div>
-     </div>
- </div>
+        <div class="bedrom">
+            <img src="./assets/images/bedrom.webp" alt="bedromImg">
+            <div class="bedromDesk">Bedroom</div>
+        </div>
+    </div>
 </section>
 <section class="sectionOur">
     <div class="subject">
@@ -192,41 +193,53 @@
         })
     </div>
 </section>
-<section class="beautiful">
-    <div class="textleft">
-        <div class="headline">
-            <p>50+ Beautiful rooms <br>inspiration</p>
+<aside class="rooms-gallery">
+    <section class="gallery-description">
+        <div class="gallery-title">
+            50+ Beautiful rooms inspiration
         </div>
-        <div class="beautifulDesc">
-            <p>Our designer already made a lot of beautiful <br>prototipe of rooms that inspire you</p>
+        <div class="gallery-subtitle">
+            Our designer already made a lot of beautiful prototipe of rooms that inspire you
         </div>
-        @@include('./_button.html', {
-        "padding-x": "36px",
-        "padding-y": "12px",
-        "border-radius": "0px",
-        "title": "Explore More",
-        "bgcolor": "var(--primary-color)",
-        "font-size":"16px",
-        "color":"white",
-        "border-color":"",
-        "border": "1px",
-        "font-weight":"normal"
-        })
-    </div>
-
-    <div class="image-content">
-        <div class="main-image">
-            <img src="./assets/images/innerpease.webp" alt="Main room image">
-
-            <div class="content-overlay">
-                <div class="content-white">
-                    <div class="content-header">
-                        <div class="number">01</div>
-                        <div class="divider"><hr></div>
-                        <div class="category">Bed Room</div>
+        <div class="gallery-button">
+            @@include('./_button.html', {
+            "padding-x": "36px",
+            "padding-y": "12px",
+            "border-radius": "0px",
+            "title": "Explore More",
+            "bgcolor": "var(--primary-color)",
+            "font-size":"16px",
+            "color":"white",
+            "border-color":"",
+            "border": "1px",
+            "font-weight":"normal"
+            })
+        </div>
+    </section>
+    <section class="featured-room">
+        <div class="featured-image">
+            <img id="main-room-image" src="./assets/images/innerpease.webp">
+        </div>
+        <div class="room-widget">
+            <div class="room-description">
+                <div class="description-content">
+                    <div class="room-meta">
+                        <div class="room-number">
+                            01
+                        </div>
+                        <div class="separator">
+                            <hr>
+                        </div>
+                        <div class="room-type">
+                            Bed Room
+                        </div>
                     </div>
-                    <div class="content-title">Inner Peace</div>
+                    <div class="room-title">
+                        Inner Peace
+                    </div>
                 </div>
+            </div>
+            <div class="navigation-button">
                 @@include('./_button.html', {
                 "padding-x": "12px",
                 "padding-y": "12px",
@@ -241,20 +254,79 @@
                 })
             </div>
         </div>
-
-        <div class="secondary-images">
-            <img src="./assets/images/innerpease2.webp" alt="Secondary room image 1">
-            <img src="./assets/images/innerpease3.webp" alt="Secondary room image 2">
+    </section>
+    <section class="additional-rooms">
+        <div class="rooms-grid">
+            <img id="secondary-room-image1" src="./assets/images/innerpease2.webp">
+            <img id="secondary-room-image2" src="./assets/images/innerpease3.webp">
         </div>
-    </div>
-</section>
+        <div class="gallery-controls">
+            <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
+                <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+            <svg width="11" height="11" viewBox="0 0 11 11" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <circle cx="5.5" cy="5.5" r="5.5" fill="#D8D8D8"/>
+            </svg>
+        </div>
+    </section>
+</aside>
 <section class="furniro">
     <div class="titleshare">
         <p>Share your setup with</p>
     </div>
     <div class="subtitlefurniro">
-       <p>#FuniroFurniture</p>
+        <p>#FuniroFurniture</p>
     </div>
+    <div class="imgesfurniro">
+        <div class="firstblockimg">
+            <div class="firstpairimg">
+                <div class="firstrwoimg">
+                    <img src="./assets/images/firstimg.webp" alt="">
+                </div>
+                <div class="secondwoimg">
+                    <img src="./assets/images/secongimg.webp" alt="">
+                </div>
+            </div>
+            <div class="secondpairimg">
+                <div class="firstrwoimg">
+                    <img src="./assets/images/thirdimg.webp" alt="">
+                </div>
+                <div class="firstrwoimg">
+                    <img src="./assets/images/fourthimg.webp" alt="">
+                </div>
+            </div>
+        </div>
+        <div class="secondblockimg">
+            <img src="./assets/images/fifthimg.webp" alt="">
+        </div>
+        <div class="thirdblockimg">
+            <div class="firstpairimg">
+                <div class="firstrwoimg">
+                    <img src="./assets/images/sixthimg.webp" alt="">
+                </div>
+                <div class="secondwoimg">
+                    <img src="./assets/images/seventhimg.webp" alt="">
+                </div>
+            </div>
+            <div class="secondpairimg">
+                <div class="firstrwoimg">
+                    <img src="./assets/images/eighthimg.webp" alt="">
+                </div>
+                <div class="firstrwoimg">
+                    <img src="./assets/images/ninthimg.webp" alt="">
+                </div>
+            </div>
+        </div>
+    </div>
+
 </section>
+@@include('./_footer.html')
 </body>
 </html>

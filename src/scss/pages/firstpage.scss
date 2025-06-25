@@ -103,114 +103,172 @@
     margin-top: 4%;
   }
 }
-
-.beautiful {
-  p {
-    margin: 0;
-  }
-
-  hr {
-    width: 27px;
-    margin: 0;
-    border: 1px solid black;
-  }
-
+.rooms-gallery{
+  margin-top: 8%;
   display: flex;
-  background-color: var(--section-color);
-  width: 100%;
-  height: 670px;
-  margin-top: 100px;
-    //padding: 0 100px;
-  position: relative;
-
-  .textleft {
-    width: 40%;
+  justify-content: space-between;
+  .gallery-description{
     display: flex;
     flex-direction: column;
-    align-items: flex-start;
     justify-content: center;
-    gap: 30px;
-
-    .headline {
-      font-size: 40px;
+    margin-left: 5%;
+    width: 30%;
+    .gallery-title{
+      font-size: 2.6rem;
       font-weight: bold;
-      line-height: 1.2;
+      line-height: 1.1;
+      margin-bottom: 2%;
     }
-
-    .beautifulDesc {
-      font-size: 16px;
-      line-height: 1.5;
+    .gallery-subtitle{
+      font-size: 1rem;
+      width: 70%;
+      margin-bottom: 3%;
+    }
+    .gallery-button{
     }
   }
-
-  .image-content {
-    display: flex;
-    flex-direction: row;
-    gap: 20px;
-    justify-content: center;
-    align-items: center;
-
-
-    .main-image {
-      position: relative;
-
-
-      img {
-        object-fit: cover;
+  .featured-room{
+    .featured-image{
+      #main-room-image{
+        width: 404px;
+        height: 582px;
       }
-
-      .content-overlay {
-        position: absolute;
-        bottom: 0;
-        left: 0;
-        display: flex;
-        align-items: flex-end;
-
-
-
-        .content-white {
-          width: 217px;
-          height: 130px;
-          background-color: rgba(255, 255, 255, 0.7);
-          padding: 20px;
-          display: flex;
-          flex-direction: column;
-          justify-content: center;
-          align-items: center;
-
-
-
-          .content-header {
+    }
+    .room-widget{
+      display: flex;
+      align-items: end;
+      .room-description{
+        width: 217px;
+        height: 130px;
+        display: grid;
+        align-items: center;
+        .description-content{
+          margin: 9%;
+          .room-meta{
             display: flex;
+            justify-content: space-between;
             align-items: center;
-            gap: 10px;
-
-            .number {
-              font-weight: bold;
+            width: 80%;
+            .room-number{
+              font-size: 1rem;
             }
-
-            .category {
-              font-weight: bold;
+            .separator{
+              margin: 0;
+              width: 27px;
+            }
+            .room-type{
+              font-size: 1rem;
             }
           }
-
-          .content-title {
-            font-size: 24px;
+          .room-title{
+            font-size: 1.8rem;
             font-weight: bold;
           }
         }
       }
     }
-
-    .secondary-images {
+  }
+  .additional-rooms{
+    .rooms-grid{
       display: flex;
-      gap: 20px;
-
-
-      img {
-
-        object-fit: cover;
+      justify-content: space-between;
+      align-content: flex-start;
+      overflow: hidden;
+      width: 500px;
+      #secondary-room-image1{
+        width: 372px;
+        height: 486px;
+      }
+      #secondary-room-image2{
+        width: auto;
+        height: 486px;
+        margin-left: 5%;
+      }
+    }
+    .gallery-controls{
+      display: flex;
+      justify-content: space-between;
+      align-items: center;
+      width: 30%;
+      margin-top: 4%;
+      #element_carousel_active{
+        height: 27px;
+        width: 27px;
+      }
+      #element_carousel_inactive{
+        height: 11px;
+        width: 11px;
       }
     }
   }
 }
+.furniro{
+
+  p{
+    margin: 0;
+  }
+  .titleshare{
+    text-align: center;
+    font-size: 20px;
+    color: var(--cardtext-color);
+  }
+  .subtitlefurniro{
+    text-align: center;
+    font-size: 40px;
+    font-weight: bold;
+  }
+  .imgesfurniro{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    .firstblockimg{
+      display: flex;
+      flex-direction: column;
+      width: 741px;
+      gap: 16px;
+      .firstpairimg{
+        display: flex;
+        gap: 16px;
+        align-items: flex-end;
+        .secondwoimg{
+          overflow: hidden;
+        }
+      }
+      .secondpairimg{
+        display: flex;
+        gap: 16px;
+      }
+    }
+    .secondblockimg{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
+  }
+  .secondblockimg{
+    padding: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .thirdblockimg{
+    display: flex;
+    flex-direction: column;
+    width: 741px;
+    gap: 16px;
+    .firstpairimg{
+      display: flex;
+      gap: 16px;
+      align-items: flex-end;
+      .secondwoimg{
+        overflow: hidden;
+      }
+    }
+    .secondpairimg{
+      display: flex;
+      gap: 16px;
+    }
+  }
+
+}
+
