@@ -9,7 +9,7 @@
   justify-content: flex-end;
 
   .aside {
-    background-color: #FFF3E3;
+    background-color: var(--colorblock-color);
     width: 643px;
     height: 443px;
     display: flex;
@@ -103,99 +103,133 @@
     margin-top: 4%;
   }
 }
-.rooms-gallery{
-  margin-top: 8%;
+.rooms-inspiration-section {
+  background-color: var(--rooms);
+  padding-top: 2%;
+  padding-bottom: 2%;
   display: flex;
   justify-content: space-between;
-  .gallery-description{
+
+  .inspiration-content {
     display: flex;
     flex-direction: column;
     justify-content: center;
     margin-left: 5%;
     width: 30%;
-    .gallery-title{
+
+    .inspiration-title {
       font-size: 2.6rem;
       font-weight: bold;
       line-height: 1.1;
       margin-bottom: 2%;
     }
-    .gallery-subtitle{
+
+    .inspiration-subtitle {
       font-size: 1rem;
       width: 70%;
       margin-bottom: 3%;
     }
-    .gallery-button{
+
+    .explore-button {
+      // стили кнопки
     }
   }
-  .featured-room{
-    .featured-image{
-      #main-room-image{
+
+  .featured-room {
+    position: relative;
+
+    .room-image {
+      #main-room-image {
         width: 404px;
         height: 582px;
       }
     }
-    .room-widget{
+
+    .room-widget {
       display: flex;
       align-items: end;
-      .room-description{
+
+      .room-description {
         width: 217px;
         height: 130px;
         display: grid;
         align-items: center;
-        .description-content{
+        position: absolute;
+        background-color: rgba(255, 255, 255, 0.5);
+        margin-bottom: 5%;
+        margin-left: 5%;
+
+        .description-content {
           margin: 9%;
-          .room-meta{
+
+          .room-meta {
             display: flex;
             justify-content: space-between;
             align-items: center;
             width: 80%;
-            .room-number{
+
+            .room-number {
               font-size: 1rem;
             }
-            .separator{
+
+            .divider {
               margin: 0;
               width: 27px;
             }
-            .room-type{
+
+            .room-category {
               font-size: 1rem;
             }
           }
-          .room-title{
+
+          .room-name {
             font-size: 1.8rem;
             font-weight: bold;
           }
         }
       }
+
+      .room-nav-button {
+        position: absolute;
+        margin-bottom: 5%;
+        margin-left: 58.6%;
+      }
     }
   }
-  .additional-rooms{
-    .rooms-grid{
+
+  .additional-rooms {
+    .secondary-rooms-images {
       display: flex;
       justify-content: space-between;
       align-content: flex-start;
       overflow: hidden;
       width: 500px;
-      #secondary-room-image1{
+
+      #secondary-room-image-1 {
         width: 372px;
         height: 486px;
       }
-      #secondary-room-image2{
+
+      #secondary-room-image-2 {
         width: auto;
         height: 486px;
         margin-left: 5%;
       }
     }
-    .gallery-controls{
+
+    .rooms-carousel {
       display: flex;
       justify-content: space-between;
       align-items: center;
       width: 30%;
       margin-top: 4%;
-      #element_carousel_active{
+
+      #element_carousel_active {
         height: 27px;
         width: 27px;
       }
-      #element_carousel_inactive{
+
+      #element_carousel_inactive {
         height: 11px;
         width: 11px;
       }
@@ -230,6 +264,7 @@
         display: flex;
         gap: 16px;
         align-items: flex-end;
+        overflow: hidden;
         .secondwoimg{
           overflow: hidden;
         }
@@ -256,10 +291,11 @@
     flex-direction: column;
     width: 741px;
     gap: 16px;
-    .firstpairimg{
+    .firstpairimg2{
       display: flex;
       gap: 16px;
       align-items: flex-end;
+      overflow: hidden;
       .secondwoimg{
         overflow: hidden;
       }
@@ -267,8 +303,13 @@
     .secondpairimg{
       display: flex;
       gap: 16px;
+      overflow: hidden;
     }
   }
-
+}
+.buttonactive{
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 

@@ -10,7 +10,7 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
           rel="stylesheet">
-    <title>practica</title>
+    <title>Home</title>
 </head>
 <body>
 
@@ -177,6 +177,7 @@
         'isSale': false
         })
 
+
     </div>
     <div class="undercarts">
         @@include('./_button.html', {
@@ -193,15 +194,15 @@
         })
     </div>
 </section>
-<aside class="rooms-gallery">
-    <section class="gallery-description">
-        <div class="gallery-title">
+<aside class="rooms-inspiration-section">
+    <section class="inspiration-content">
+        <div class="inspiration-title">
             50+ Beautiful rooms inspiration
         </div>
-        <div class="gallery-subtitle">
+        <div class="inspiration-subtitle">
             Our designer already made a lot of beautiful prototipe of rooms that inspire you
         </div>
-        <div class="gallery-button">
+        <div class="explore-button">
             @@include('./_button.html', {
             "padding-x": "36px",
             "padding-y": "12px",
@@ -217,7 +218,7 @@
         </div>
     </section>
     <section class="featured-room">
-        <div class="featured-image">
+        <div class="room-image">
             <img id="main-room-image" src="./assets/images/innerpease.webp">
         </div>
         <div class="room-widget">
@@ -227,19 +228,17 @@
                         <div class="room-number">
                             01
                         </div>
-                        <div class="separator">
-                            <hr>
-                        </div>
-                        <div class="room-type">
+                        <div class="divider"> <hr> </div>
+                        <div class="room-category">
                             Bed Room
                         </div>
                     </div>
-                    <div class="room-title">
+                    <div class="room-name">
                         Inner Peace
                     </div>
                 </div>
             </div>
-            <div class="navigation-button">
+            <div class="room-nav-button">
                 @@include('./_button.html', {
                 "padding-x": "12px",
                 "padding-y": "12px",
@@ -256,11 +255,11 @@
         </div>
     </section>
     <section class="additional-rooms">
-        <div class="rooms-grid">
-            <img id="secondary-room-image1" src="./assets/images/innerpease2.webp">
-            <img id="secondary-room-image2" src="./assets/images/innerpease3.webp">
+        <div class="secondary-rooms-images">
+            <img id="secondary-room-image-1" src="./assets/images/innerpease2.webp">
+            <img id="secondary-room-image-2" src="./assets/images/innerpease3.webp">
         </div>
-        <div class="gallery-controls">
+        <div class="rooms-carousel">
             <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
                 <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
@@ -307,7 +306,7 @@
             <img src="./assets/images/fifthimg.webp" alt="">
         </div>
         <div class="thirdblockimg">
-            <div class="firstpairimg">
+            <div class="firstpairimg2">
                 <div class="firstrwoimg">
                     <img src="./assets/images/sixthimg.webp" alt="">
                 </div>

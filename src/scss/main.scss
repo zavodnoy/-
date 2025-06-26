@@ -14,9 +14,12 @@
 @use 'components/button';
 @use 'components/card';
 @use 'components/footer';
-
+@use 'components/background.scss';
+@use 'components/feature.scss';
 // ==== 5. Pages ====
 @use 'pages/firstpage.scss';
+@use 'pages/secondpage.scss';
+@use 'pages/thirdthpage.scss';
 
 // ==== 6.Цвета ====
 

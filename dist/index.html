@@ -8,7 +8,7 @@
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <title>practica</title>
+    <title>Home</title>
 </head>
 <body>
 
@@ -43,8 +43,8 @@
     </div>
     <nav>
         <ul>
-            <li><a href="#"><p>Home</p></a></li>
-            <li><a href="#"><p>Shop</p></a></li>
+            <li><a href="./index.html"><p>Home</p></a></li>
+            <li><a href="./index2.html"><p>Shop</p></a></li>
             <li><a href="#"><p>About</p></a></li>
             <li><a href="#"><p>Contact</p></a></li>
         </ul>
@@ -96,9 +96,17 @@
                 border-color: 0-color;
                 border: 0 solid;
                 font-size: 16px;
-                font-weight: bold;">
+                font-weight: bold;
+                transition: transform 0.2s ease;
+                cursor: pointer;">
     <span>BUY NOW</span>
 </button>
+
+<style>
+    .button:hover {
+        transform: scale(1.05);
+    }
+</style>
     </div>
 </section>
 <section class="sectoinBrowse">
@@ -154,7 +162,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -196,7 +204,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -244,7 +252,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -290,7 +298,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -331,7 +339,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -376,7 +384,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -423,7 +431,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -468,7 +476,7 @@
     </div>
     <div class="hover-overlay"></div>
     <div class="hover-content">
-        <button class="hover-button">Add to cart</button>
+        <a href="./index3.html"><button class="hover-button">Add to cart</button></a>
         <div class="hover-icons">
             <div class="icon">
                 <svg width="16" height="16" viewBox="0 0 16 16" fill="none" xmlns="http://www.w3.org/2000/svg">
@@ -493,6 +501,7 @@
     </div>
 </div>
 
+
     </div>
     <div class="undercarts">
         <button class="button" style="border-radius: 0px;
@@ -505,20 +514,28 @@
                 border-color: var(--primary-color);
                 border: 1px solid;
                 font-size: 16px;
-                font-weight: bold;">
+                font-weight: bold;
+                transition: transform 0.2s ease;
+                cursor: pointer;">
     <span>Show More</span>
 </button>
+
+<style>
+    .button:hover {
+        transform: scale(1.05);
+    }
+</style>
     </div>
 </section>
-<aside class="rooms-gallery">
-    <section class="gallery-description">
-        <div class="gallery-title">
+<aside class="rooms-inspiration-section">
+    <section class="inspiration-content">
+        <div class="inspiration-title">
             50+ Beautiful rooms inspiration
         </div>
-        <div class="gallery-subtitle">
+        <div class="inspiration-subtitle">
             Our designer already made a lot of beautiful prototipe of rooms that inspire you
         </div>
-        <div class="gallery-button">
+        <div class="explore-button">
             <button class="button" style="border-radius: 0px;
                padding-left: 36px;
                padding-right: 36px;
@@ -529,13 +546,21 @@
                 border-color: ;
                 border: 1px solid;
                 font-size: 16px;
-                font-weight: normal;">
+                font-weight: normal;
+                transition: transform 0.2s ease;
+                cursor: pointer;">
     <span>Explore More</span>
 </button>
+
+<style>
+    .button:hover {
+        transform: scale(1.05);
+    }
+</style>
         </div>
     </section>
     <section class="featured-room">
-        <div class="featured-image">
+        <div class="room-image">
             <img id="main-room-image" src="./assets/images/innerpease.webp">
         </div>
         <div class="room-widget">
@@ -545,19 +570,17 @@
                         <div class="room-number">
                             01
                         </div>
-                        <div class="separator">
-                            <hr>
-                        </div>
-                        <div class="room-type">
+                        <div class="divider"> <hr> </div>
+                        <div class="room-category">
                             Bed Room
                         </div>
                     </div>
-                    <div class="room-title">
+                    <div class="room-name">
                         Inner Peace
                     </div>
                 </div>
             </div>
-            <div class="navigation-button">
+            <div class="room-nav-button">
                 <button class="button" style="border-radius: 0px;
                padding-left: 12px;
                padding-right: 12px;
@@ -568,18 +591,26 @@
                 border-color: var(--circleblue-color);
                 border: 0px solid;
                 font-size: 16px;
-                font-weight: bold;">
+                font-weight: bold;
+                transition: transform 0.2s ease;
+                cursor: pointer;">
     <span>→</span>
 </button>
+
+<style>
+    .button:hover {
+        transform: scale(1.05);
+    }
+</style>
             </div>
         </div>
     </section>
     <section class="additional-rooms">
-        <div class="rooms-grid">
-            <img id="secondary-room-image1" src="./assets/images/innerpease2.webp">
-            <img id="secondary-room-image2" src="./assets/images/innerpease3.webp">
+        <div class="secondary-rooms-images">
+            <img id="secondary-room-image-1" src="./assets/images/innerpease2.webp">
+            <img id="secondary-room-image-2" src="./assets/images/innerpease3.webp">
         </div>
-        <div class="gallery-controls">
+        <div class="rooms-carousel">
             <svg width="27" height="27" viewBox="0 0 27 27" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <circle opacity="0.7" cx="13.5" cy="13.5" r="13" stroke="#B88E2F"/>
                 <circle cx="13.5" cy="13.5" r="5" fill="#B88E2F" stroke="#B88E2F"/>
@@ -626,7 +657,7 @@
             <img src="./assets/images/fifthimg.webp" alt="">
         </div>
         <div class="thirdblockimg">
-            <div class="firstpairimg">
+            <div class="firstpairimg2">
                 <div class="firstrwoimg">
                     <img src="./assets/images/sixthimg.webp" alt="">
                 </div>
@@ -646,6 +677,7 @@
     </div>
 
 </section>
+<div class="linetop"><hr></div>
 <footer class="site-footer">
   <div class="footer-wrapper">
     <div class="footer-about">
@@ -661,8 +693,8 @@
       <div class="footer-nav">
         <h3 class="footer-heading">Links</h3>
         <ul class="footer-menu">
-          <li class="footer-menu-item"><a href="#">Home</a></li>
-          <li class="footer-menu-item"><a href="#">Shop</a></li>
+          <li class="footer-menu-item"><a href="./index.html">Home</a></li>
+          <li class="footer-menu-item"><a href="./index2.html">Shop</a></li>
           <li class="footer-menu-item"><a href="#">About</a></li>
           <li class="footer-menu-item"><a href="#">Contact</a></li>
         </ul>

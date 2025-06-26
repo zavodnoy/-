@@ -1,5 +1,8 @@
+.linetop{
+  margin-top: 50px;
+}
 .site-footer {
-  background-color: #f9f9f9;
+
   padding: 60px 40px 30px;
   color: #333;
 }
@@ -62,7 +65,7 @@
 }
 
 .footer-menu-item a:hover {
-  color: #000;
+  color: black;
 }
 
 .subscribe-form {
@@ -75,8 +78,8 @@
   font-size: 14px;
   margin-bottom: 10px;
   border: none;
-  border-bottom: 2px solid #000000;
-  background-color: #f9f9f9;
+  border-bottom: 2px solid black;
+
 }
 
 .subscribe-button {
