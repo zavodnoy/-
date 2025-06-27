@@ -1,0 +1,97 @@
+main {
+  display: flex;
+  margin-top: 5%;
+  justify-content: center;
+  .main {
+    .container {
+
+
+      .header {
+        width: 817px;
+        height: 55px;
+        background: var(--colorblock-color);
+        display: flex;
+        align-items: center;
+        justify-content: space-evenly;
+
+      }
+
+      .imgmain {
+        display: flex;
+        align-items: center;
+        margin-top: 5%;
+        width:817px;
+        justify-content: space-between;
+
+        .text {
+          font-size: 16px;
+          color: var(--cardtext-color);
+        }
+
+        .price {
+          font-size: 16px;
+          color: var(--cardtext-color);
+        }
+
+        .btnquanty {
+          width: 40px;
+          height: 40px;
+          background: white;
+          border: 1px solid;
+          border-radius: 5px;
+          margin-left: 50px;
+        }
+        .totalcost{
+          margin-left: 100px;
+        }
+      }
+    }
+  }
+
+  .cart {
+    margin-left: 5%;
+    p {
+      margin: 0;
+    }
+
+    .container2 {
+      width: 393px;
+      height: 390px;
+      background: var(--colorblock-color);
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      flex-direction: column;
+
+      .title {
+        font-size: 32px;
+        font-weight: bold;
+      }
+
+      .Subtotal {
+        display: flex;
+        margin-top: 5%;
+        gap: 50px;
+
+        .textline {
+          font-size: 16px;
+        }
+
+        .cost {
+          color: var(--cardtext-color);
+        }
+
+        .costprimary {
+          color: var(--primary-color);
+          font-size: 20px;
+        }
+      }
+    }
+
+    .CheckOut {
+      margin-top: 5%;
+    }
+
+  }
+
+}

@@ -1,5 +1,10 @@
-.filter{
+.filtertop{
   justify-content: flex-start;
+  background-color: var(--colorblock-color);
+  width: 100%;
+  height: 100px;
+  align-items: center;
+  display: flex;
   p{
     margin:0 ;
   }
@@ -20,6 +25,257 @@
       font-size: 16px;
     }
   }
+}
+.products{
+  display: flex;
+  justify-content: center;
+  margin-top: 35px;
+  margin-left: 123px;
+  p{
+    margin: 0 ;
+  }
+  .sidebar{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+  .textcontent{
+    margin-left: 5%;
+    .title{
+      font-size: 42px;
+    }
+    .price{
+      font-size: 24px;
+      color: var(--cardtext-color);
+      margin-top: 2%;
+    }
+    .reviews{
+      display: flex;
+      justify-content: flex-start;
+      align-items: center;
+      gap: 20px;
+      margin-top: 2%;
+      .hr{
+        font-size: 20px;
+        color: var(--cardtext-color);
+      }
+      .textstars{
+        font-size: 13px;
+        color: var(--cardtext-color);
+      }
+    }
+    .desc{
+      font-size: 13px;
+      margin-top: 2%;
+    }
+    .size{
+      font-size: 16px;
+      color: var(--cardtext-color);
+      margin-top: 2%;
+    }
+    .sizeblock{
+      margin-top: 2%;
+      gap: 20px;
+      display: flex;
+      p{
+        color: var(--cardtext-color);
+      }
+    }
+    .color{
+      font-size: 16px;
+      color: var(--cardtext-color);
+      margin-top: 2%;
+    }
+    .colorblock{
+      margin-top: 2%;
+      gap: 20px;
+      display: flex;
+      .purple{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: var(--ciclepurpl-color);
+      }
+      .black{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: black;
+      }
+      .primary{
+        width: 30px;
+        height: 30px;
+        border-radius: 50%;
+        background-color: var(--primary-color);
+      }
+    }
+    .buttonclass{
+      display: flex;
+      align-items: center;
+      margin-top: 2%;
+      gap: 20px;
+      margin-bottom: 10%;
+      .counter {
+        width: 123px;
+        height: 64px;
+        display: flex;
+        align-items: center;
+        justify-content: space-around;
+        border: 1px solid var(--cardtext-color);
+        border-radius: 10px;
 
+      }
+      .btn {
+        background: none;
+        border: none;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: normal;
+      }
+      .number {
+        font-size: 18px;
+        padding: 0 10px;
+      }
+    }
+    .buttonadd{
+      .add{
+        width: 215px;
+        height: 64px;
+        border-radius: 15px;
+        border: 1px solid var(--cardtext-color);
+        background-color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: normal;
+      }
+    }
+    .buttoncompare{
+      .compare{
+        width: 215px;
+        height: 64px;
+        border-radius: 15px;
+        border: 1px solid var(--cardtext-color);
+        background-color: white;
+        font-size: 20px;
+        cursor: pointer;
+        font-weight: normal;
+      }
+    }
+  }
+  table{
+    margin-top: 7%;
+    width: 297px;
+    height: 137px;
+    display: flex;
+    align-items: center;
+    .first{
+      td{
+        color: var(--cardtext-color);
+      }
+      .icon{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        gap: 20px;
+      }
+    }
+    .second{
+      td{
+        color: var(--cardtext-color);
+      }
+    }
+    .third{
+      td{
+        color: var(--cardtext-color);
+      }
+    }
+    .fourth{
+
+      td{
+        color: var(--cardtext-color);
+        align-items: center;
+        .icon{
+          display: flex;
+          gap: 10px;
+          div{
+            display: flex;
+            align-items: center;
+          }
+        }
+      }
+    }
+  }
+}
+.underhr{
+  margin-top:5%;
+}
+.description-content{
+  p{
+    margin: 0;
+  }
+  .titlecontainer{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 30px;
+    margin-top: 5%;
+    .Description,.Additional,.Reviews{
+      color: var(--cardtext-color);
+      transition: color 0.3s ease;
+      font-size: 24px;
+      cursor: pointer;
+    }
+    .Description:hover,.Additional:hover,.Reviews:hover{
+      color: black;
+
+    }
+  }
+  .subtitletxt{
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cardtext-color);
+    margin-top: 3%;
+    p{
+      width: 1026px;
+    }
+  }
+  .subtitletxtsecond{
+    margin-top: 3%;
+    font-size: 16px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: var(--cardtext-color);
+  }
+  .imagecontent{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 3%;
+  }
+  .hr{
+    margin-top:5% ;
+  }
+}
+.Related{
+  margin-top: 4%;
+  .titlereoad{
+    font-size: 36px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .carts{
+    display: flex;
+  }
+  .buttonubder{
+    margin-top: 2%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
 
 }

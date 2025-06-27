@@ -1,0 +1,189 @@
+section {
+  p {
+    margin: 0;
+  }
+  .title{
+    font-size: 36px;
+    font-weight: bold;
+  }
+  .namesname{
+    display: flex;
+    gap: 31px;
+    .firstname{
+      display: flex;
+      flex-direction: column;
+      span{
+        font-size: 16px;
+      }
+      #firstname{
+        width: 211px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+      }
+    }
+    .lastname{
+      display: flex;
+      flex-direction: column;
+      span{
+        font-size: 16px;
+      }
+      #lastname{
+        width: 211px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+      }
+    }
+  }
+  .companyname{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #companyname{
+      width: 453px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+  .country{
+    display: flex;
+    flex-direction: column;
+
+    span{
+      font-size: 16px;
+
+    }
+    .btnquanty{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      width: 445px;
+      height: 75px;
+      border-radius: 10px;
+      padding: 5px;
+      svg{
+        margin-right: 20px;
+      }
+    }
+    #country{
+      width: 350px;
+      height: 70px;
+      border-radius: 10px;
+      border: none;
+
+    }
+  }
+  .srteet{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #srteet{
+      width: 453px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+  .Town{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #Town{
+      width: 453px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+  .Province{
+    display: flex;
+    flex-direction: column;
+
+    span{
+      font-size: 16px;
+
+    }
+    .btnquanty{
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      border: 1px solid;
+      width: 445px;
+      height: 75px;
+      border-radius: 10px;
+      padding: 5px;
+      svg{
+        margin-right: 20px;
+      }
+    }
+    #Province{
+      width: 350px;
+      height: 70px;
+      border-radius: 10px;
+      border: none;
+
+    }
+  }
+  .code{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #code{
+      width: 453px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+  .Phone{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #Phone{
+      width: 453px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+  .Email{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #Email{
+      width: 453px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+    }
+  }
+  .Additional{
+    display: flex;
+    flex-direction: column;
+    span{
+      font-size: 16px;
+    }
+    #Additional{
+      width: 423px;
+      height: 75px;
+      border-radius: 10px;
+      border: 1px solid;
+      padding-left: 30px;
+    }
+  }
+}
