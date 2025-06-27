@@ -90,6 +90,7 @@
     }
   }
   .blocktext{
+
     font-size: 24px;
     font-weight: bold;
     .Choose{
@@ -110,32 +111,37 @@
     }
   }
 }
-.table{
-
-  .General{
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: space-around;
-
+.full_table{
+  margin-top: 4%;
+  margin-left: 7%;
+  margin-right: 7%;
+  margin-bottom: 4%;
+  .title_table{
+    font-size: 2rem;
+    font-weight: bold;
   }
-  .Product{
-    margin-top: 4%;
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    tr{
-      display: flex;
-      align-items: center;
-      justify-content: space-between;
-      flex-direction: row;
-      .ddd{
-        margin: 50px;
-        display: flex;
-        justify-content: center;
-        align-items: center;
-      }
-
-    }
+  .border_center_table{
+    border-right: var(--cardtext-color) solid 1px;
+    border-left: var(--cardtext-color) solid 1px;
+  }
+  .padd_table_center{
+    padding-bottom: 5%;
+    border-right: var(--cardtext-color) solid 1px;
+    border-left: var(--cardtext-color) solid 1px;
+  }
+  td{
+    font-size: 1.2rem;
+    width: 400px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    padding-right: 3%;
+    padding-left: 3%;
+  }
+  .padd_table{
+    padding-bottom: 5%;
+  }
+  table{
+    border-collapse: collapse;
+    border-top: var(--cardtext-color) solid 1px;
   }
 }

@@ -20,7 +20,7 @@
 'home':'Home',
 'selector':'Checkout',
 })
-<section>
+<section class="Billingdetails">
     <section class="forms">
         <div class="title">Billing details</div>
         <div class="namesname">
@@ -83,7 +83,65 @@
 
     </section>
     <section class="product">
-
+        <div class="producttitle">
+            <div class="Product">Product</div>
+            <div class="Subtotal">Subtotal</div>
+        </div>
+        <div class="Asgaardsofaline">
+            <div class="Asgaardsofacontent">
+                <div class="Asgaardsofa">Asgaard sofa</div>
+                <div class="X">X</div>
+                <div class="first">1</div>
+            </div>
+            <div class="Asgaardsofaprice">Rs. 250,000.00</div>
+        </div>
+        <div class="Subtotalcontent">
+            <div class="Subtotal">Subtotal</div>
+            <div class="Subtotalprice">Rs. 250,000.00</div>
+        </div>
+        <div class="Totalcontent">
+            <div class="Total">Total</div>
+            <div class="Totalprice">Rs. 250,000.00</div>
+        </div>
+        <div class="hr"><hr></div>
+        <div class="Directline">
+            <div class="blackcircle"></div>
+            <div class="Direct">Direct Bank Transfer</div>
+        </div>
+        <div class="textcontent">
+            Make your payment directly into our bank account. Please use
+            your Order ID as the payment reference. Your order will not be
+            shipped until the funds have cleared in our account.
+        </div>
+        <div class="Directline">
+            <div class="whitecircle"></div>
+            <div class="Direct">Direct Bank Transfer</div>
+        </div>
+        <div class="Directline">
+            <div class="whitecircle"></div>
+            <div class="Direct">Cash On Delivery</div>
+        </div>
+        <div class="textcontentsecond">
+            Your personal data will be used to support your experience
+            throughout this website, to manage access to your account, and
+            for other purposes described in our <b>privacy policy.</b>
+        </div>
+        <div class="butn">
+            @@include('./_button.html', {
+            "padding-x": "102px",
+            "padding-y": "17px",
+            "border-radius": "15px",
+            "title": "Place order",
+            "bgcolor": "white",
+            "font-size":"20px",
+            "color":"black",
+            "border-color":"var(--cardtext-color)",
+            "border": "1px solid",
+            "font-weight":"normal"
+            })
+        </div>
     </section>
 </section>
+@@include('./_feature.html')
+@@include('./_footer.html')
 </body>

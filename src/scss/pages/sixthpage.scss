@@ -1,189 +1,306 @@
-section {
+.Billingdetails{
+  margin-top: 5%;
+  display: flex;
+  justify-content: space-around;
   p {
     margin: 0;
   }
-  .title{
-    font-size: 36px;
-    font-weight: bold;
-  }
-  .namesname{
+  .forms{
+    margin-left: 175px;
     display: flex;
-    gap: 31px;
-    .firstname{
+    flex-direction: column;
+    .title{
+      font-size: 36px;
+      font-weight: bold;
+      margin-bottom: 36px;
+    }
+    .namesname{
+      display: flex;
+      gap: 31px;
+      .firstname{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        span{
+          font-size: 16px;
+        }
+        #firstname{
+          width: 211px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+      .lastname{
+        display: flex;
+        flex-direction: column;
+        gap: 20px;
+        span{
+          font-size: 16px;
+        }
+        #lastname{
+          width: 211px;
+          height: 75px;
+          border-radius: 10px;
+          border: 1px solid;
+        }
+      }
+    }
+    .companyname{
       display: flex;
       flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
       span{
         font-size: 16px;
       }
-      #firstname{
-        width: 211px;
+      #companyname{
+        width: 453px;
         height: 75px;
         border-radius: 10px;
         border: 1px solid;
       }
     }
-    .lastname{
+    .country{
       display: flex;
       flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+
+      span{
+        font-size: 16px;
+
+      }
+      .btnquanty{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        width: 445px;
+        height: 75px;
+        border-radius: 10px;
+        padding: 5px;
+        svg{
+          margin-right: 20px;
+        }
+      }
+      #country{
+        width: 350px;
+        height: 70px;
+        border-radius: 10px;
+        border: none;
+
+      }
+    }
+    .srteet{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
       span{
         font-size: 16px;
       }
-      #lastname{
-        width: 211px;
+      #srteet{
+        width: 453px;
         height: 75px;
         border-radius: 10px;
         border: 1px solid;
       }
     }
-  }
-  .companyname{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #companyname{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .country{
-    display: flex;
-    flex-direction: column;
-
-    span{
-      font-size: 16px;
-
-    }
-    .btnquanty{
+    .Town{
       display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid;
-      width: 445px;
-      height: 75px;
-      border-radius: 10px;
-      padding: 5px;
-      svg{
-        margin-right: 20px;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+      span{
+        font-size: 16px;
+      }
+      #Town{
+        width: 453px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
       }
     }
-    #country{
-      width: 350px;
-      height: 70px;
-      border-radius: 10px;
-      border: none;
-
-    }
-  }
-  .srteet{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #srteet{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Town{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Town{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Province{
-    display: flex;
-    flex-direction: column;
-
-    span{
-      font-size: 16px;
-
-    }
-    .btnquanty{
+    .Province{
       display: flex;
-      align-items: center;
-      justify-content: center;
-      border: 1px solid;
-      width: 445px;
-      height: 75px;
-      border-radius: 10px;
-      padding: 5px;
-      svg{
-        margin-right: 20px;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+
+      span{
+        font-size: 16px;
+
+      }
+      .btnquanty{
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        border: 1px solid;
+        width: 445px;
+        height: 75px;
+        border-radius: 10px;
+        padding: 5px;
+        svg{
+          margin-right: 20px;
+        }
+      }
+      #Province{
+        width: 350px;
+        height: 70px;
+        border-radius: 10px;
+        border: none;
+
       }
     }
-    #Province{
-      width: 350px;
-      height: 70px;
-      border-radius: 10px;
-      border: none;
+    .code{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+      span{
+        font-size: 16px;
+      }
+      #code{
+        width: 453px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+      }
+    }
+    .Phone{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+      span{
+        font-size: 16px;
+      }
+      #Phone{
+        width: 453px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+      }
+    }
+    .Email{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+      span{
+        font-size: 16px;
+      }
+      #Email{
+        width: 453px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+      }
+    }
+    .Additional{
+      display: flex;
+      flex-direction: column;
+      gap: 20px;
+      margin-top: 10%;
+      span{
+        font-size: 16px;
+      }
+      #Additional{
+        width: 423px;
+        height: 75px;
+        border-radius: 10px;
+        border: 1px solid;
+        padding-left: 30px;
+      }
+    }
+  }
+  .product{
+    width: 533px;
+    .producttitle{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3%;
+      .Product{
+        font-size: 24px;
+        font-weight: bold;
+      }
+      .Subtotal{
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    .Asgaardsofaline{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3%;
+      .Asgaardsofacontent{
+        display: flex;
+        align-items: center;
+        gap: 5px  ;
+        .Asgaardsofa{
+          color: var(--cardtext-color);
+        }
+      }
+    }
+    .Subtotalcontent{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3%;
+    }
+    .Totalcontent{
+      display: flex;
+      justify-content: space-between;
+      margin-top: 3%;
+      .Totalprice{
+        color: var(--primary-color);
+        font-size: 24px;
+        font-weight: bold;
+      }
+    }
+    .hr{
+      width: 527px;
+      color: var(--cardtext-color);
+    }
+    .Directline{
+      display: flex;
+      align-items: center;
+      gap: 15px;
+      margin-top: 4%;
+      .blackcircle{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color: black;
+      }
+      .Direct{
+        font-size: 16px;
+      }
+    }
+    .textcontent{
+      color: var(--cardtext-color);
+      margin-top: 4%;
+    }
+    .Directline{
+      display: flex;
+      align-items: center;
+      .whitecircle{
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        background-color:white;
+        border: 1px solid var(--cardtext-color);
+      }
+    }
+    .textcontentsecond{
+      margin-top: 4%;
+    }
+    .butn{
+      margin-top: 4%;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+    }
 
-    }
-  }
-  .code{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #code{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Phone{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Phone{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Email{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Email{
-      width: 453px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-    }
-  }
-  .Additional{
-    display: flex;
-    flex-direction: column;
-    span{
-      font-size: 16px;
-    }
-    #Additional{
-      width: 423px;
-      height: 75px;
-      border-radius: 10px;
-      border: 1px solid;
-      padding-left: 30px;
-    }
   }
 }
